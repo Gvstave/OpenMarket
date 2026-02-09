@@ -6,6 +6,19 @@ A modern e-commerce marketplace platform built with React, designed to connect b
 
 OpenMarket is a full-featured e-commerce web application that provides a comprehensive marketplace for buyers and sellers. The platform features a clean, responsive design with modern UI components, product browsing, user authentication, and detailed product views.
 
+## 📚 Learning Goals
+
+OpenMarket is also a learning-driven project aimed at strengthening my backend development skills. Through this project, I am actively learning and applying:
+
+- Java backend development using Spring Boot
+- REST API design and best practices
+- PostgreSQL database modeling and querying
+- Integrating frontend and backend systems in a full-stack application
+- Real-world e-commerce business logic (orders, products, users)
+
+This approach allows me to combine theory with practical, production-style development.
+
+
 ## ✨ Features
 
 ### For Buyers
@@ -41,6 +54,8 @@ OpenMarket is a full-featured e-commerce web application that provides a compreh
 - **Notifications:** React Hot Toast
 - **State Management:** React hooks
 - **Fonts:** Inter (Google Fonts)
+- **Backend:** Java (Springboot)
+- **Database:** PostgreSQL 
 
 ## 📋 Prerequisites
 
