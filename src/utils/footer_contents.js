@@ -2,10 +2,10 @@ const FOOTER_CONTENTS = [
     {
         title: "Marketplace",
         links: [
-            { label: "About Us", path: "/aboutUs" },
-            { label: "Contact Us", path: "/contactUs" },
+            { label: "About Us", path: "/about-us" },
+            { label: "Contact Us", path: "/contact-us" },
             { label: "Partnerships", path: "/partnerships" },
-            { label: "Help Center", path: "/helpCenter" },
+            { label: "Help Center", path: "/help-center" },
         ],
     },
     {

@@ -1,9 +1,9 @@
-import LoginHeader from "../components/ui/LoginHeader";
+import LoginHeader from "../shared/ui/login-header";
 import loginBackground from "../assets/images/login_background.png";
-import Button from "../components/ui/Button";
+import Button from "../shared/ui/button";
 import googleIcon from '../assets/icons/googleIcon.svg'
 import { Link } from "react-router-dom";
-import Input from "../components/ui/Input";
+import Input from "../shared/ui/input";
 
 const LoginContents = () => {
     return (
@@ -73,7 +73,7 @@ const LoginContents = () => {
                     </form>
                     <p className="text-center text-sm text-slate-500 mt-2">
                         Don't have an account?
-                        <Link className="font-medium text-primary hover:text-blue-700 transition-colors" to={"/signup"}> Sign up for free</Link>
+                        <Link className="font-medium text-primary hover:text-blue-700 transition-colors" to={"/sign-up"}> Sign up for free</Link>
                     </p>
                     <div className="flex justify-center gap-6 mt-8">
                         <a className="text-xs text-slate-400 hover:text-slate-600" href="#">Privacy
@@ -95,3 +95,4 @@ export default function Login() {
         </div>
     )
 }
+

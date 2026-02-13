@@ -30,7 +30,7 @@ export const products = [
       count: 712,
       breakdown: {5: 68,4:20,3:8,2:2,1:2}
     },
-    relatedProductIds: [2, 9, 23]
+    relatedProductIds: [2,9,15]
   },
   {
     id: 2,
@@ -57,8 +57,8 @@ export const products = [
       width: "58mm",
       case: "Hard protective case included"
     },
-    reviewsSummary: { average: 4.5, count: 234, breakdown: null },
-    relatedProductIds: [1, 23, 9]
+    reviewsSummary: { average: 4.5, count: 234 },
+    relatedProductIds: [1,9]
   },
   {
     id: 3,
@@ -78,8 +78,8 @@ export const products = [
       concentration: "Eau de Parfum",
       notes: "Top: bergamot; Heart: vetiver; Base: amber"
     },
-    reviewsSummary: { average: 4.8, count: 421, breakdown: null },
-    relatedProductIds: [12, 3]
+    reviewsSummary: { average: 4.8, count: 421 },
+    relatedProductIds: [12]
   },
   {
     id: 4,
@@ -95,8 +95,8 @@ export const products = [
     soldBy: "Green Life Home",
     features: ["Double-wall vacuum insulation","BPA-free cap","Keeps drinks cold for 24 hours"],
     specifications: { capacity: "32oz", material: "18/8 stainless steel", weight: "410g", dimensions: "9.5 x 3.2 in" },
-    reviewsSummary: { average: 5.0, count: 1890, breakdown: null },
-    relatedProductIds: [10, 9]
+    reviewsSummary: { average: 5.0, count: 1890 },
+    relatedProductIds: []
   },
   {
     id: 5,
@@ -112,8 +112,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["4K Ultra HD","360° pan & tilt","Night vision & motion alerts"],
     specifications: { resolution: "4K", connectivity: "Wi-Fi 2.4/5GHz", power: "USB-C 5V", storage: "Cloud & microSD" },
-    reviewsSummary: { average: 4.9, count: 1023, breakdown: null },
-    relatedProductIds: [8, 11, 21]
+    reviewsSummary: { average: 4.9, count: 1023 },
+    relatedProductIds: [8,11,10]
   },
   {
     id: 6,
@@ -129,8 +129,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["High DPI optical sensor","Customizable RGB","Ergonomic shape"],
     specifications: { dpi: "100 - 16000", connectivity: "Wired USB", weight: "85g (adjustable)", switches: "Omron" },
-    reviewsSummary: { average: 5.0, count: 548, breakdown: null },
-    relatedProductIds: [19, 20, 13, 17]
+    reviewsSummary: { average: 5.0, count: 548 },
+    relatedProductIds: [19,20]
   },
   {
     id: 7,
@@ -146,8 +146,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["16GB RAM","M-series / Intel i7 options","Lightweight aluminum chassis"],
     specifications: { cpu: "Intel i7 / Apple M-series options", ram: "16GB", storage: "512GB - 2TB SSD", display: "14-inch Retina / IPS" },
-    reviewsSummary: { average: 4.9, count: 312, breakdown: null },
-    relatedProductIds: [11, 8, 25, 22]
+    reviewsSummary: { average: 4.9, count: 312 },
+    relatedProductIds: [11,8]
   },
   {
     id: 8,
@@ -163,8 +163,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["Dolby Atmos support","Wireless subwoofer","Bluetooth & HDMI eARC"],
     specifications: { channels: "3.1 / 5.1 passthrough", power: "240W total", connectivity: "HDMI eARC, Bluetooth, Optical" },
-    reviewsSummary: { average: 4.8, count: 654, breakdown: null },
-    relatedProductIds: [5, 7, 11, 21]
+    reviewsSummary: { average: 4.8, count: 654 },
+    relatedProductIds: [5,7]
   },
   {
     id: 9,
@@ -180,8 +180,8 @@ export const products = [
     soldBy: "Urban Threads",
     features: ["Heart rate monitor","Sleep tracking","Water resistant 5ATM"],
     specifications: { battery: "7 days typical", connectivity: "Bluetooth 5.0", display: "AMOLED 1.4-inch" },
-    reviewsSummary: { average: 4.5, count: 403, breakdown: null },
-    relatedProductIds: [10, 23, 9]
+    reviewsSummary: { average: 4.5, count: 403 },
+    relatedProductIds: [10,6]
   },
   {
     id: 10,
@@ -197,8 +197,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["24/7 heart rate","Activity & workout modes","Long battery life"],
     specifications: { battery: "14 days", waterResistance: "5ATM", sensors: "PPG heart rate, accelerometer" },
-    reviewsSummary: { average: 4.9, count: 2100, breakdown: null },
-    relatedProductIds: [9, 23, 4]
+    reviewsSummary: { average: 4.9, count: 2100 },
+    relatedProductIds: [9]
   },
   {
     id: 11,
@@ -214,8 +214,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["Flat studio response","Comfort-fit ear pads","Detachable cable"],
     specifications: { impedance: "32Ω", frequencyResponse: "10Hz - 30kHz", weight: "310g" },
-    reviewsSummary: { average: 4.7, count: 812, breakdown: null },
-    relatedProductIds: [8, 21, 24, 7]
+    reviewsSummary: { average: 4.7, count: 812 },
+    relatedProductIds: [7,8]
   },
   {
     id: 12,
@@ -231,8 +231,8 @@ export const products = [
     soldBy: "Green Life Home",
     features: ["Vitamin C blend","Lightweight absorbent formula","Cruelty-free"],
     specifications: { size: "30ml", skinType: "All", activeIngredients: ["Vitamin C","Hyaluronic Acid"] },
-    reviewsSummary: { average: 4.6, count: 142, breakdown: null },
-    relatedProductIds: [3, 12]
+    reviewsSummary: { average: 4.6, count: 142 },
+    relatedProductIds: [3]
   },
   {
     id: 13,
@@ -250,8 +250,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["Bluetooth wireless","Hot-swappable options","RGB backlight"],
     specifications: { layout: "75% / Compact", switches: "Gateron / Keychron options", battery: "2000mAh", connectivity: "Bluetooth / USB-C" },
-    reviewsSummary: { average: 4.5, count: 980, breakdown: null },
-    relatedProductIds: [14, 16, 15, 17, 18]
+    reviewsSummary: { average: 4.5, count: 980 },
+    relatedProductIds: [14,16,15]
   },
   {
     id: 14,
@@ -267,8 +267,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["Mac layout","Low-profile mechanical switches","Multi-device pairing"],
     specifications: { layout: "65% / Compact", switches: "Low-profile mechanical", connectivity: "Bluetooth / USB-C", battery: "4500mAh" },
-    reviewsSummary: { average: 4.0, count: 210, breakdown: null },
-    relatedProductIds: [13, 16, 17, 18]
+    reviewsSummary: { average: 4.0, count: 210 },
+    relatedProductIds: [13]
   },
   {
     id: 15,
@@ -278,14 +278,14 @@ export const products = [
     price: 45.0,
     originalPrice: null,
     rating: 5.0,
-    images: ["https://popkeycap.com/cdn/shop/products/6_bb5e09e8-c315-44ef-a479-17e095053bb0_2048x2048.jpg?v=1666250947"],
+    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuBpHB1DKm4EQe1UlHCP7MtFsDEfnzo2xfmRNiYtJBHLAPx8ZDUjsUgiYhrJeGTH7tzU5yUCjPg6F2Lj1BCCgYeG1cYme00TwCZ0qtbfOSy-wgiWkhlD0ChTPIet-hBOSCCVznuzFpPQA4RUMITrn5ms9o-Z4B7SnTV6Hzt8t4mRS1iYC2ON2Eyxz3pw4lNkER9jzqXrUU950Ea_BEmEFGWqJBh-gxsioGn8qeRo-uDpr5i9oy8QITLkj38FqSQRQgbay9KvfaHxOaY"],
     badge: null,
     description: "Artisan purple keycap set for custom mechanical keyboards.",
     soldBy: "Urban Threads",
     features: ["Hand-painted artisan keycaps","High-profile sculpted set","Durable PBT material"],
     specifications: { material: "PBT", profile: "SA / Cherry variants", compatibility: "Most MX-style stems" },
-    reviewsSummary: { average: 5.0, count: 87, breakdown: null },
-    relatedProductIds: [13, 16, 17, 18, 14]
+    reviewsSummary: { average: 5.0, count: 87 },
+    relatedProductIds: [13,16]
   },
   {
     id: 16,
@@ -301,8 +301,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["Bluetooth & 2.4GHz","Retro styling","Hotkey macros"],
     specifications: { layout: "Full / Tenkeyless options", connectivity: "Bluetooth / 2.4GHz / USB-C", battery: "1500mAh" },
-    reviewsSummary: { average: 4.5, count: 640, breakdown: null },
-    relatedProductIds: [13, 15, 17, 14, 18]
+    reviewsSummary: { average: 4.5, count: 640 },
+    relatedProductIds: [13,15]
   },
   {
     id: 17,
@@ -318,8 +318,8 @@ export const products = [
     soldBy: "Tech Haven",
     features: ["Aircraft-grade aluminum frame","Per-key RGB lighting","Dedicated media controls"],
     specifications: { switches: "Cherry MX (varies)", keyRollover: "N-key", connectivity: "Wired USB", weight: "1.2kg" },
-    reviewsSummary: { average: 5.0, count: 1540, breakdown: null },
-    relatedProductIds: [13, 16, 19, 20, 6]
+    reviewsSummary: { average: 5.0, count: 1540 },
+    relatedProductIds: [13,16]
   },
   {
     id: 18,
@@ -335,8 +335,8 @@ export const products = [
     soldBy: "TechRefurb",
     features: ["60% layout","RGB lighting","Bluetooth & wired modes"],
     specifications: { layout: "60%", battery: "2000mAh", switches: "Gateron / Kailh" },
-    reviewsSummary: { average: 4.0, count: 320, breakdown: null },
-    relatedProductIds: [13, 16, 15, 14, 18]
+    reviewsSummary: { average: 4.0, count: 320 },
+    relatedProductIds: [13,16]
   },
   {
     id: 19,
@@ -352,8 +352,8 @@ export const products = [
     soldBy: "Glorious",
     features: ["Ultra-light honeycomb shell","High-precision sensor","Low-latency wireless"],
     specifications: { weight: "69g", sensor: "Pixart 3370", connectivity: "2.4GHz wireless / USB-C" },
-    reviewsSummary: { average: 4.5, count: 980, breakdown: null },
-    relatedProductIds: [6, 20, 17, 18, 19]
+    reviewsSummary: { average: 4.5, count: 980 },
+    relatedProductIds: [6,20]
   },
   {
     id: 20,
@@ -369,115 +369,303 @@ export const products = [
     soldBy: "GamerGear",
     features: ["Value bundle","Pre-tuned for esports","Durable stitched mat"],
     specifications: { keyboard: "Membrane / RGB", mouse: "Optical 8000 DPI", mat: "Stitched edges, 900x400mm" },
-    reviewsSummary: { average: 4.0, count: 430, breakdown: null },
-    relatedProductIds: [6, 19, 13, 17, 18]
+    reviewsSummary: { average: 4.0, count: 430 },
+    relatedProductIds: [6,19]
+  }
+];
+
+export const productsList = [
+  {
+    id: 1,
+    name: "Air-Zoom Pro Runners",
+    category: "Fashion",
+    price: 145.00,
+    originalPrice: 180.00,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    badge: null,
+    description: "Premium running shoes designed for speed and elite comfort.",
+    soldBy: "Urban Threads"
+  },
+  {
+    id: 2,
+    name: "Gold-Rimmed Aviators",
+    category: "Fashion",
+    price: 210.00,
+    originalPrice: null,
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+    badge: "New Arrival",
+    description: "Designer aviator sunglasses with polarized gold-tinted lenses.",
+    soldBy: "Urban Threads"
+  },
+  {
+    id: 3,
+    name: "Elysium Cologne",
+    category: "Beauty",
+    price: 125.00,
+    originalPrice: 160.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&q=80",
+    badge: null,
+    description: "Luxury men's fragrance with notes of vetiver and amber.",
+    soldBy: "Green Life Home"
+  },
+  {
+    id: 4,
+    name: "Eco-Stream 32oz Bottle",
+    category: "Home & Garden",
+    price: 34.99,
+    originalPrice: null,
+    rating: 5.0,
+    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
+    badge: "Eco Friendly",
+    description: "Sustainable stainless steel water bottle with double-wall insulation.",
+    soldBy: "Green Life Home"
+  },
+  {
+    id: 5,
+    name: "Smart Home Camera",
+    category: "Electronics",
+    price: 129.00,
+    originalPrice: 159.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80",
+    badge: null,
+    description: "Ultra HD resolution with 360-degree night vision.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 6,
+    name: "Precision Gaming Mouse",
+    category: "Electronics",
+    price: 75.00,
+    originalPrice: null,
+    rating: 5.0,
+    image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&q=80",
+    badge: "New",
+    description: "High-precision sensor with customizable RGB.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 7,
+    name: "UltraBook Pro 14\"",
+    category: "Electronics",
+    price: 1199.00,
+    originalPrice: 1499.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80",
+    badge: null,
+    description: "Advanced processor with 16GB RAM for pro tasks.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 8,
+    name: "Premium Soundbar",
+    category: "Electronics",
+    price: 399.00,
+    originalPrice: 499.00,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&q=80",
+    badge: null,
+    description: "High-fidelity sound with wireless connectivity.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 9,
+    name: "Digital Watch Z1",
+    category: "Accessories",
+    price: 129.00,
+    originalPrice: null,
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+    badge: null,
+    description: "Smart digital watch with fitness tracking.",
+    soldBy: "Urban Threads"
+  },
+  {
+    id: 10,
+    name: "Smart Fitness Band",
+    category: "Electronics",
+    price: 59.00,
+    originalPrice: 79.00,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600&q=80",
+    badge: null,
+    description: "Track your health and fitness goals.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 11,
+    name: "Studio Headphones",
+    category: "Electronics",
+    price: 280.00,
+    originalPrice: null,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+    badge: null,
+    description: "Professional audio quality for music lovers.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 12,
+    name: "Radiance Serum",
+    category: "Beauty",
+    price: 45.00,
+    originalPrice: 60.00,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80",
+    badge: null,
+    description: "Nourishing serum for glowing skin.",
+    soldBy: "Green Life Home"
+  },
+  {
+    id: 13,
+    name: "Keychron K2 Wireless Mechanical Keyboard",
+    category: "Electronics",
+    price: 89.99,
+    originalPrice: 105.00,
+    rating: 4.5,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCtnbPza9QW06rgBfgjPqUUAFOObaWYJDsSZ1yca_DuvdRQNfpZiDIwDlez-H-y_-m0iQXnwEw57VdiP24nQiFScOQPuepXgoUd6kcosDHe1d90hk4jDf0AevWrpdBBoq6CRWmRKqyl4voQe_jXTmD8HDZHdjj7r5oXh0sHZ9dwTSiQ9h-KKTotW38_jmh9pQnFaY4aDxNEa_3bdfq4OvkpfF2P-y6W8aP-D46oSe6HnTR33TSDdiCwfCln7JFkrfZvq2c2rGpw0ew",
+    badge: "-15%",
+    description: "Wireless mechanical keyboard with RGB lighting and compact layout.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 14,
+    name: "Logitech MX Mechanical Mini for Mac",
+    category: "Electronics",
+    price: 149.99,
+    originalPrice: null,
+    rating: 4.0,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC_jeGOmRc4axL89RHDzqlzAlvFA-FzxgdTs7daBbgClKYgp8SRoJ6Ytz5m0wR45kd8lCmihnx1Oj0S_mk9svvht-3rLtqvu1CjghEFXQ84zN5hwjgPSbWJ7DBkqUnaLWkdxdJpBF-PRcqlbDFDTc5kRs6AHuxMP2SZCkrmLO97eVjAxlTSiyMneGzJqUQZN17p8m_J-A0-jSgj5tH4ZV4NQZ_BqsP7n4UdEu93LGZ4qFJ2g-sd-CWQ9zAPI0y50bAf-8MVDK8mHow",
+    badge: "New",
+    description: "Compact low-profile mechanical keyboard tailored for Mac workflows.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 15,
+    name: "Custom Artisan Purple Keycap Set (Keycaps Only)",
+    category: "Accessories",
+    price: 45.00,
+    originalPrice: null,
+    rating: 5.0,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHB1DKm4EQe1UlHCP7MtFsDEfnzo2xfmRNiYtJBHLAPx8ZDUjsUgiYhrJeDTH7tzU5yUCjPg6F2Lj1BCCgYeG1cYme00TwCZ0qtbfOSy-wgiWkhlD0ChTPIet-hBOSCCVznuzFpPQA4RUMITrn5ms9o-Z4B7SnTV6Hzt8t4mRS1iYC2ON2Eyxz3pw4lNkER9jzqXrUU950Ea_BEmEFGWqJBh-gxsioGn8qeRo-uDpr5i9oy8QITLkj38FqSQRQgbay9KvfaHxOaY",
+    badge: null,
+    description: "Artisan purple keycap set for custom mechanical keyboards.",
+    soldBy: "Urban Threads"
+  },
+  {
+    id: 16,
+    name: "8BitDo Retro Mechanical Keyboard - N Edition",
+    category: "Electronics",
+    price: 99.99,
+    originalPrice: null,
+    rating: 4.5,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAr82UC0H8WtuxuzQcN2Pp15jnEYUW2_VEsGjgzUgw_6miJPpeGK_tr8hxJwg56k8Bp55LPiNrY0ZoeVeQQyrHAcYBMmzxiwbeeZLHs-ubHsIAn-7Akee4Vc1hsUfjClSUBthmkbF0xcPL5yXtt2dwA4NF-6spDLtMuIGIRrQpK_U2_5qfyOgcQ93_8_ea8mkv9SHfSa8ypWju1lkvSVMQBeiLycV9giiYak-KFi6ZggMb4y7zkpBbg2Q1X19U8l1IjIxHbSr-Jt_I",
+    badge: "Best Seller",
+    description: "Retro-inspired mechanical keyboard with modern wireless support.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 17,
+    name: "Corsair K70 RGB MK.2 Mechanical Gaming Keyboard",
+    category: "Electronics",
+    price: 159.99,
+    originalPrice: null,
+    rating: 5.0,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAP-xOp_KCexAGqVfoO6T2qVSa_bUYHDVGYOuSFm2yb0Qn2THawTb4z2sJMjSuDSGESEra5mEStbuxp5VTsjVz-CH3m_rAforqdL42YqKd9I3TFC1NPPa9inOdqFiLptGVu1qoLAf4JYm8mdu2xCoT-DjqLwPeie1_F_PG28YAWfSQMvWFTsdKB95vEgRjr0LxMG4CXox6bwmyR23aPpxEQDLD_Ad9NxdzTQ4oU-BxEkHOk_s8AuAyxYHjvLP0f2JE5Waul2TpIM8c",
+    badge: null,
+    description: "Full-size mechanical gaming keyboard with RGB lighting.",
+    soldBy: "Tech Haven"
+  },
+  {
+    id: 18,
+    name: "Anne Pro 2 Mechanical Keyboard Wireless Bluetooth",
+    category: "Electronics",
+    price: 65.00,
+    originalPrice: 89.00,
+    rating: 4.0,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAo70EnPreGWczd2pumJl-sWCN718BotA55bJqrHop5SIOoje4O_lYmF7AmxeSLw-VraqgONDz6xc_VouMjhfkHTdyRZ92--XH-vUpRPhC4IQMeyQka526plvOeJsPlT3pkOR5IqF_XHgajHMD6HuDM86DblLFvyaVxuevrxzZh4jJlSsXmfSGEh027JyV0nfAsuhW5TwtVUEMCjEgu7AVxI1PnwYOgw16mMk71q4Tel_NDll5CENnHH1x47VngBB2uBiZ4jDGXbWM",
+    badge: "Refurbished",
+    description: "Compact 60% wireless mechanical keyboard with Bluetooth.",
+    soldBy: "TechRefurb"
+  },
+  {
+    id: 19,
+    name: "Glorious Model O Wireless Gaming Mouse",
+    category: "Electronics",
+    price: 79.99,
+    originalPrice: null,
+    rating: 4.5,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuABQcTwQDhtR86xNbH2y27HUu5STKat1JdKaPtEFDjzAL6iJmjYBftEWdB6Ado1mQ-Bm0k7OMxI4oleqgl14zOilA4sKJl-DvFi_dU_AKjEQJvXFNaRcObOt9ZrYpOHyTGX15broD3iBhcCnr9lJvUbTFGpW9aRHHB1qk_JsSPbmvSFmBTsvdJQBRVKVkkq7FwZeOoghNhTIWi0dT3WIBJskJhLYJ0bkILPRLXmeIkZ54Ynl3eJLa1ydiYW06iurrFGPEUk45Ilhys",
+    badge: null,
+    description: "Ultra-lightweight wireless gaming mouse with honeycomb design.",
+    soldBy: "Glorious"
+  },
+  {
+    id: 20,
+    name: "Pro Gamer Starter Pack: Keyboard + Mouse + Mat",
+    category: "Electronics",
+    price: 120.00,
+    originalPrice: 150.00,
+    rating: 4.0,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCoBbO2SQlb1BWmZ3gcAkKme2I83wt7D8_cGd1x7k6j50Mh-CLmy3o_Znkb-Y0lGSpoD-KHwbH4VUH5yzqrupbF1kaicbey197uLg-1ZcTw2wTd-WhM_WgXZkIB1B5mchJuOQPQFW53-ZruPTaGgWPWrilC0jCaXaf2ntQCaK8iX_HiswFRkcQw4rsG3hlvcst9kCbc-SzPjuFPKx_1BPG7ZZdIAtzHg2wAIhgltLu3tzZYrW6n-M7orWP9pqckj13ts6RqpbpZRRY",
+    badge: "Bundle",
+    description: "Starter bundle with keyboard, mouse, and desk mat.",
+    soldBy: "GamerGear"
   },
   {
     id: 21,
-    slug: "acoustic-pro-x-wireless",
-    name: "Acoustic Pro-X Wireless",
+    name: "Beats Studio Pro",
     category: "Electronics",
-    price: 299.0,
+    price: 179.99,
     originalPrice: null,
-    rating: 4.8,
-    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuCJ88U8mqFjwJrwZgjFz0AYgSSfeJ5ePguqtzglyZe09k4yuOO471xYJjJ8yJbStuwf1e83zDKX0G5sQMJJnuj43m6EITTfCDn0g06WBS5NBRLuZPYyAZJQZmZLuZ9dBx5YhKhr2SD72ZcjfRroi9ZNPHE0wo702L-wrtuP9JzMpx-E5ENH7SYvEE9YA2E-vLSWAy1xeHUppV5kzNnIseSDSUJQtJSWh0Hq7gEX0gflU5U8fG3AkfCynGw3DJ9iEcebvxjWuddJfUg"],
-    badge: "New",
-    description: "High-quality wireless acoustic headphones",
-    soldBy: "Audio Pro",
-    features: ["Wireless connectivity", "High-fidelity sound", "Long battery life"],
-    specifications: { connectivity: "Bluetooth 5.0", battery: "30 hours", impedance: "32Ω" },
-    reviewsSummary: { average: 4.8, count: 245, breakdown: null },
-    relatedProductIds: [8, 11, 24, 21]
+    rating: 4.5,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAqnAMT259nTw9WbZev67v4NtAKzlmGqPFt5FJb62QJEHnA9AFXVeeD6ytD44r-3g5xfDXRL1fRSc_psCmYh7n9-_nB9y4hpqVJMmTblDaJvmkOFqxp_Pv60zCiQtbWZvw2anbh1QsoMTCivSIO4XJQSybzb5tLm18Gmr18aGjVlSx2D53-9qBrDwxdP8wkdI7GhOxjA2mOhy2qjzpLmQ_mxwDN409gC9K3EsrFLwpc2LUrT-MgYB9ip6wVSysjwx6trlfXf6-DENA",
+    badge: null,
+    description: "Wireless noise cancelling headphones.",
+    soldBy: "Tech Haven"
   },
   {
     id: 22,
-    slug: "luminabook-pro-14",
-    name: "LuminaBook Pro 14\"",
+    name: "Apple AirPods Max",
     category: "Electronics",
-    price: 1499.0,
-    originalPrice: 1650.0,
-    rating: 5.0,
-    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuD908QCvZAQu1LxdeLY4GlIocHxMTKAxZwX3qCx3KnaiIQwrpsvOAZmqZJ4nv--wMOsAI5rmJ43tlgImiT6ddu-5NbTAp0_exjKJDx-ZGlgeV0du0STOMtvCfW_LXlor604Pa3K5RzA2X1jOW7JQR5eJl7_Ghr3gyejEOhsiAARkkUEfhMOognuf1nqz1jAk8jL626ZTRK-jDvDZSVUGWHu2ciRbzVmnsJXQFXQepArsaXYNP3_m4c4cA_USMlI4Nvzh0ICM3crEkQ"],
+    price: 549.00,
+    originalPrice: null,
+    rating: 4.8,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCWacUatbIraa1pW6tgDmpkJFflMLkLMZd-xCyQzjnc1CghfvJqlPqqRJakHnEnTDDw-yZNXHjJjnYD3mFmRJGzatA_UbcxQrEp0Gg0vIHjmDrnJTeDxzXHFQb_OQBhkdaRaFvw80zKqMiX9uy2vl0up37dKH28GLxrBhTEhaT4ny-JkaSoRpTGgawbbi00BTrveun7EvubzWLXU83OyPmyCvH12uBFd-9Oufk1l38pmmeSB1Unh-ZUM-bsMnKvRboF8MlH-Ps5WTI",
     badge: null,
-    description: "Premium 14-inch laptop with advanced processor",
-    soldBy: "LuminaTech",
-    features: ["High-performance processor", "16GB RAM", "512GB SSD"],
-    specifications: { cpu: "Latest generation", ram: "16GB", storage: "512GB SSD", display: "14-inch 4K" },
-    reviewsSummary: { average: 5.0, count: 42, breakdown: null },
-    relatedProductIds: [7, 25, 26, 22]
+    description: "Over-ear headphones with premium audio.",
+    soldBy: "Tech Haven"
   },
   {
     id: 23,
-    slug: "titan-watch-series-5",
-    name: "Titan Watch Series 5",
-    category: "Accessories",
-    price: 319.0,
+    name: "Bose QuietComfort 45",
+    category: "Electronics",
+    price: 329.00,
     originalPrice: null,
-    rating: 4.6,
-    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuCHefN1a5JGG1Phr6XIsbqwpaztg2Liy3u3IZCetjAz9fwCUkno4BEmhFM6DxF7Zo5oLBljn7jL6vpgvjnPrxWGlL0hYp-WyFFGKjqT6hGVu7VfF8PqNXA_e1A_9W3cBqYxrKnK557T15PENQzF48WMyFYRMneqIk_4KHIx2M8A-6HsEXAQj08hX6IiQjnkhYwCo1NhYMPLTWr4FLCzMOQVAE_DnB2g4_pPMdlpSj56bi3ejzjmVNoTdAxyxDtP4MdT2YKuqUNZ6FM"],
-    badge: "Sale 20%",
-    description: "Premium smartwatch with fitness tracking",
-    soldBy: "Titan Watches",
-    features: ["AMOLED display", "Heart rate monitor", "Water resistant"],
-    specifications: { display: "1.4-inch AMOLED", battery: "14 days", waterResistance: "5ATM" },
-    reviewsSummary: { average: 4.6, count: 189, breakdown: null },
-    relatedProductIds: [9, 10, 4, 23]
+    rating: 4.7,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAym-AvkQfTKmkMr9laj6m3muaYBQfE2n5l0W4HLoGrZPXIE8amLmbsqcaZrLCjdGFAWKgpn3xnbMXUrJzlIZIBHmGUMP0Z95XkKCKu4swVf0n3wni6I1BHauhG1WxjEybcDGvjxY5oRkZWLFL9cweO-otcuuEGGrcodTPeS4O8VgWb8T3FdHNEmq67XgprUybqXGRFOAl6txl0JsRn30dqzJ0XVVPmkpqzCRR-sVeP-8IrfKkhr3fO0keOQmQlS-ya6nj7wbIMzd8",
+    badge: null,
+    description: "Bluetooth wireless noise cancelling headphones.",
+    soldBy: "Tech Haven"
   },
   {
     id: 24,
-    slug: "vocalist-pro-mic",
-    name: "Vocalist Pro Mic",
+    name: "Sennheiser Momentum 4",
     category: "Electronics",
-    price: 185.0,
+    price: 299.95,
     originalPrice: null,
-    rating: 4.9,
-    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuC7KpGA0k149J1aOBxOjJ16NOBKUfVMeBXFhchNINkqo0IBUnUiBxT2Gh7qqr9tCj1POMKr_WTnepUw4mv3RywUdSZQDDoyzN9E3nRMhazkWy6yU7JFba4KGsdVaZsPuqNMn9M_2fcnPy0gV7cltwvk14sNW8smDk0ltO1UeY9MGuXYbcbfX3FWEFTyUMJpAKoH8XeOCFWXAStRufT149E2HtgBYAaxYTtjiwhzJN17thUxrhVprOW6vocd3ctVo-rhN9mDHhabMN4"],
+    rating: 4.6,
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC6aBbXPxXJKsr0WKt3aEa5_1CwWG3XDHd4I75Sr2POQCM-SSEF-_h8OVZXKi6GEe9mukYhMOsqRPjC1cKhbco9w6fWIiWh-WahUiIxatceCnNin1pDiNvtS4LSMKAOOoeWvQfm5A6wteByclbR5VtD1_MIuCRW9eUji_pgdcBmu-Wjg6ynAXDfEpdoom0qPR-edTGi8AOQ-pA_MFDHYKz48KCfrhJPvIQ8Nm87eu4l46ettc7SJf0_fG_x0sYRQZwAzz07TlilLwc",
     badge: null,
-    description: "Professional-grade microphone for vocalists",
-    soldBy: "Pro Audio",
-    features: ["Studio-quality sound", "Cardioid pattern", "Includes shock mount"],
-    specifications: { polar: "Cardioid", frequency: "20Hz-20kHz", sensitivity: "-35 dBV/Pa" },
-    reviewsSummary: { average: 4.9, count: 76, breakdown: null },
-    relatedProductIds: [11, 8, 21, 24]
-  },
-  {
-    id: 25,
-    slug: "curve-34-ultrawide",
-    name: "Curve 34\" Ultrawide",
-    category: "Electronics",
-    price: 849.0,
-    originalPrice: null,
-    rating: 4.7,
-    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuB10iLalbnHAX_vKZgexsLST7BhnTeahXwaKJYBTqTlmI7gr0Ln--8a4leyhE3yIv99kFVn4bCJRDRPEHS7EF3-eJ2V6A-ObEzmfzY6_x0drFuihsJdAuOAZIDzHP-SDykhPK4Qiq5b9QV4VY6iyvi8YLq8SWIFIX4ain2nR6HcLHoZWo0r9hJ7tUZGBIdMhDsCRW4b2AiNDDpUa6fMas03_Ornef9Y14nmLsmn-nBHmXN9fBgosmZMih2qYfuWBpFbk3e1VtjCm2M"],
-    badge: null,
-    description: "Ultra-wide curved monitor for productivity",
-    soldBy: "MonitorPro",
-    features: ["34-inch ultrawide", "1440p resolution", "Curved design"],
-    specifications: { resolution: "3440x1440", refreshRate: "60Hz", curvature: "1900R" },
-    reviewsSummary: { average: 4.7, count: 156, breakdown: null },
-    relatedProductIds: [7, 22, 26, 25]
-  },
-  {
-    id: 26,
-    slug: "zenpad-11-air",
-    name: "ZenPad 11 Air",
-    category: "Electronics",
-    price: 549.0,
-    originalPrice: null,
-    rating: 4.8,
-    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuDwCcFXS55ExPvP97tFRmgjiZVHNnwJfhHIJo6gY19ioSJzHrcyHjXivNh140gtiS5fm7echXrxEKGvAo4kS3CGP6AMS9-qmGXoqM_CCWl7fnt4-PeDoUHIvxUkwDsiXbOsElX09ggukWfQ1YIPYl07ZXfveEqsOkaxecav8PaKNY4ipB6cuowCX6J2zZS8eCqVJS6zz9g8QlSorRDsvpJGjWjlfqnw7dgVyTr2jpX0mHKMY_E045aLyyyxDucNSvxotEwLi0CIyQQ"],
-    badge: null,
-    description: "Lightweight tablet with air-thin design",
-    soldBy: "ZenTech",
-    features: ["11-inch display", "Ultra-thin design", "All-day battery"],
-    specifications: { display: "11-inch OLED", weight: "485g", battery: "15 hours" },
-    reviewsSummary: { average: 4.8, count: 98, breakdown: null },
-    relatedProductIds: [22, 7, 25, 26]
+    description: "Premium sound over-ear headphones.",
+    soldBy: "Tech Haven"
   }
 ];
 
 export default products;
 
-export const productsList = products.map(({id, name, category, price, originalPrice, rating, images, badge, description, soldBy}) => ({id, name, category, price, originalPrice, rating, images, badge, description, soldBy}));
 // Helper to get product by slug
 export const getProductBySlug = (slug) => products.find(p => p.slug === slug);
