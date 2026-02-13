@@ -7,6 +7,7 @@ export default function RelatedProducts() {
     const product = products.find(
         p => p.name.toLowerCase().replace(/\s+/g, "-") === slug
     );
+
     const relatedProductIds = product.relatedProductIds
     const relatedProducts = products.filter((item) => relatedProductIds.includes(item.id))
     
