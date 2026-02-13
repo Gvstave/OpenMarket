@@ -1,5 +1,5 @@
-import './App.css'
-import Login from './pages/login'
+import './App.css';
+import Login from './pages/login';
 import SignUp from './pages/sign-up';
 import SetBuyerProfile from './features/auth/set-buyer-profile';
 import SetSellerProfile from './features/auth/set-seller-profile';
@@ -28,7 +28,6 @@ export default function App() {
         <Route path="/seller-profile/:sellerId" element={<SellerProfile />} />
         <Route path="/product/:slug" element={<ProductDetails />} />
       </Route>
-      {/* <Route path="/product/:slug" element={<ProductDetails />} /> */}
       <Route path='/login' element={<Login />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/set-buyer-profile" element={<SetBuyerProfile />} />
