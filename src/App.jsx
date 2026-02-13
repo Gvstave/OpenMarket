@@ -1,6 +1,6 @@
 import './App.css'
-import Login from './pages/login'
-import SignUp from './pages/sign-up';
+import Login from './pages/login.jsx'
+import SignUp from './pages/sign-up.jsx';
 import SetBuyerProfile from './features/auth/set-buyer-profile';
 import SetSellerProfile from './features/auth/set-seller-profile';
 import Homepage from './pages/home';

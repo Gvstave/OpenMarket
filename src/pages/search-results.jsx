@@ -1,7 +1,6 @@
 import { useEffect, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import Aside from '../features/search/aside';
-import ResultsHeader from '../features/search/results-header';
 import ProductCard from '../shared/ui/product-card';
 import { productsList } from '../utils/products_list';
 import Search from '../shared/ui/search';
@@ -49,7 +48,7 @@ export default function SearchResults() {
                                 <p className="text-secondary text-center h-full w-full">No results found.</p>
                             ) : (
                                 filteredProducts.map((product) => (
-                                    <ProductCard key={product.id} {...product} />
+                                    <ProductCard key={product.id} {...product} image={product.images} />
                                 ))
                             )}
                         </div>
